@@ -1,0 +1,60 @@
+7
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx      sudo apt install nginx
+cd /var/www/html
+
+cd ..
+sudo chmod 777 html
+
+
+8
+git clone https://github.com/PritiShaw75/PritiShaw071.git
+
+git config --global --list
+git config --global user.name "PritiShaw75"
+git config --global user.email "itspriti.shaw@gmail.com"
+git config --global --list
+git init
+git add .
+git status
+git commit -m "done"
+git remote add origin https...new repo url..............
+git push -u origin master
+
+
+9
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+curl -SL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install nodejs
+nodejs -v
+git clone https://github.com/PritiShaw75/PritiShaw071.git
+cd PritiShaw071
+npm install
+node index.js
+
+
+
+
+10
+cd /
+ls
+cd pritishaw071
+node index.js
+
+
+
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/PritiShaw75/PritiShaw071.git
+cd PritiShaw071
+npm install
+node index.js
